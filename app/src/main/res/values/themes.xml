@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.NewsScope" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Launch theme: the AndroidX SplashScreen API swaps it for postSplashScreenTheme. -->
+    <style name="Theme.NewsScope.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/newsscope_primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_newsscope_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.NewsScope</item>
+    </style>
+</resources>

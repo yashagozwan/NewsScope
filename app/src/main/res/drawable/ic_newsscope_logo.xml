@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  NewsScope mark: a newspaper page with headline rules and a magnifying glass.
+  Drawn inside the central 66dp circle so it is never clipped by the Android 12+ splash mask.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Page outline -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F8F8F6"
+        android:strokeWidth="2.6"
+        android:strokeLineJoin="round"
+        android:pathData="M37,30 L65,30 Q67,30 67,32 L67,76 Q67,78 65,78 L37,78 Q35,78 35,76 L35,32 Q35,30 37,30 Z" />
+    <!-- Headline block -->
+    <path
+        android:fillColor="#F8F8F6"
+        android:pathData="M40,36 L58,36 L58,42 L40,42 Z" />
+    <!-- Text rules -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F8F8F6"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M40,48 L62,48 M40,54 L52,54 M40,60 L48,60" />
+    <!-- Magnifier lens (covers part of the page) -->
+    <path
+        android:fillColor="#172C46"
+        android:strokeColor="#D6A85F"
+        android:strokeWidth="3.2"
+        android:pathData="M63,56 m-10,0 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" />
+    <!-- Magnifier handle -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#D6A85F"
+        android:strokeWidth="3.6"
+        android:strokeLineCap="round"
+        android:pathData="M70.5,63.5 L77,70" />
+</vector>

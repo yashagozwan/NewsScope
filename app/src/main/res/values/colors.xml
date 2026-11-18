@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors used by the system splash screen and launcher icon. -->
+    <color name="newsscope_primary">#172C46</color>
+    <color name="newsscope_accent">#D6A85F</color>
+    <color name="newsscope_paper">#F8F8F6</color>
+</resources>

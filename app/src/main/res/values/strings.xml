@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">NewsScope</string>
+    <string name="app_tagline">See Beyond the Headlines</string>
+    <string name="cd_app_logo">NewsScope logo</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_discover">Discover</string>
+    <string name="nav_search">Search</string>
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_toggle_theme">Switch light or dark theme</string>
+    <string name="cd_clear_search">Clear search</string>
+    <string name="cd_open_source_website">Open source website</string>
+
+    <!-- Home -->
+    <string name="home_subtitle">Your editorial briefing</string>
+    <string name="home_featured_title">Top stories</string>
+    <string name="home_categories_title">Categories</string>
+    <string name="home_discover_title">Discover</string>
+    <string name="home_discover_cta">Browse %1$s sources</string>
+    <string name="home_discover_body">Pick a desk, then choose a publication to read its latest headlines.</string>
+    <string name="category_selected">%1$s, selected</string>
+
+    <!-- Discover -->
+    <string name="discover_title">Discover</string>
+    <string name="discover_subtitle">Choose a category to explore its publishers.</string>
+
+    <!-- Sources -->
+    <string name="sources_title">%1$s sources</string>
+    <string name="sources_search_hint">Search sources</string>
+    <string name="sources_count">%1$d sources</string>
+    <string name="sources_empty_title">No sources found</string>
+    <string name="sources_empty_message">There are no sources in this category right now.</string>
+    <string name="sources_no_match_title">No matching sources</string>
+    <string name="sources_no_match_message">Nothing matches “%1$s”. Try a different name or country.</string>
+    <string name="source_country">Country: %1$s</string>
+
+    <!-- Articles -->
+    <string name="articles_empty_title">No articles yet</string>
+    <string name="articles_empty_message">This source has not published any headlines at the moment.</string>
+    <string name="articles_end">You’re all caught up</string>
+    <string name="articles_by_source">Headlines from %1$s</string>
+    <string name="article_unknown_source">Unknown source</string>
+    <string name="cd_article_image">Thumbnail for %1$s</string>
+    <string name="cd_no_image">No image available</string>
+
+    <!-- Search -->
+    <string name="search_title">Search</string>
+    <string name="search_articles_hint">Search articles</string>
+    <string name="search_tab_articles">Articles</string>
+    <string name="search_tab_sources">Sources</string>
+    <string name="search_scoped_to">Within %1$s</string>
+    <string name="search_idle_title">Search the news</string>
+    <string name="search_idle_message">Enter a keyword to find articles from thousands of publishers.</string>
+    <string name="search_empty_title">No results</string>
+    <string name="search_empty_message">No articles match “%1$s”.</string>
+    <string name="search_suggestions_title">Try searching for</string>
+
+    <!-- WebView -->
+    <string name="web_invalid_url_title">This link can’t be opened</string>
+    <string name="web_invalid_url_message">The article address is missing or not a valid web link.</string>
+    <string name="web_load_failed_title">Couldn’t load the page</string>
+    <string name="web_load_failed_message">Check your connection and try again.</string>
+    <string name="web_blocked_navigation">Blocked an unsafe link</string>
+    <string name="cd_page_loading">Page loading</string>
+
+    <!-- Errors & common -->
+    <string name="action_retry">Try again</string>
+    <string name="error_no_connection">You appear to be offline. Check your internet connection and try again.</string>
+    <string name="error_timeout">The request took too long. Please try again.</string>
+    <string name="error_api_key_missing">NewsAPI key is missing. Add NEWS_API_KEY to secrets.properties and rebuild.</string>
+    <string name="error_unauthorized">The NewsAPI key was rejected (401). Check that it is valid.</string>
+    <string name="error_upgrade_required">NewsAPI result limit reached for this plan (426). Older pages need an upgraded plan.</string>
+    <string name="error_rate_limited">Too many requests (429). Please wait a moment and try again.</string>
+    <string name="error_server">The news service is having trouble (%1$d). Please try again shortly.</string>
+    <string name="error_http">Request failed (%1$d). Please try again.</string>
+    <string name="error_invalid_response">The server sent a response we couldn’t read.</string>
+    <string name="error_unknown">Something went wrong. Please try again.</string>
+    <string name="error_title">Something went wrong</string>
+    <string name="loading">Loading</string>
+</resources>
