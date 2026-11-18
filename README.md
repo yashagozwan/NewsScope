@@ -131,3 +131,6 @@ Compose UI and instrumented WebView tests are not included.
 - Backend proxy for the API key.
 - Bookmarks and share action; language/country filters for sources.
 - Compose UI tests and screenshot tests; baseline profile.
+
+## Preview
+![Preview](./news.png)
